@@ -23,7 +23,7 @@ public class GradingDriver {
         job.setMapperClass(GradingMapper.class);
         job.setReducerClass(GradingReducer.class);
         job.setNumReduceTasks(10);
-        // Output Key and Value: same to E and F in WordCountReducer
+        // Output Key and Value: same to E and F in GradingReducer
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(IntWritable.class);
         FileInputFormat.addInputPath(job, inputDirPath);
