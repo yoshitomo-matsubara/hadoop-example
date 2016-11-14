@@ -7,7 +7,7 @@ import org.apache.hadoop.mapreduce.Reducer;
 import java.io.IOException;
 
 // Reducer<C, D, E, F>
-// C: Reducer Input Key, D: Reducer Input Key (same to C and D in WordCountMapper)
+// C: Reducer Input Key, D: Reducer Input Key (same to C and D in GradingMapper)
 // E: Reducer Output Key, F: Reducer Output Value
 public class GradingReducer extends Reducer<Text, IntWritable, Text, IntWritable> {
     private static int reduceNumber = 0;
