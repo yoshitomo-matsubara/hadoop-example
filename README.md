@@ -1,6 +1,7 @@
 # Hadoop Example
 My private Maven project with Apache Hadoop examples to help you understand how its MapReduce framework works.  
-You can run example codes on your (local) computer instead of Hadoop clusters.
+You can run example codes on your (local) computer instead of Hadoop clusters.  
+Supporting material: [SlideShare](http://www.slideshare.net/yoshitomo-matsubara/understanding-hadoop-through-examples)
 
 ## Requirement
 - Java 1.8+
